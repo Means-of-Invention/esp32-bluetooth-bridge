@@ -20,22 +20,22 @@
 // IO number than the pin used for RX.  If you can confirm or deny this,
 // I'd love to hear a definitive answer.
 #define UC_TX 27
-#define UC_RX 14
+#define UC_RX 26
 
 // This pin will be pulled HIGH (if defined) when the device is
 // ready for connections
-#define PIN_READY 5
+#define PIN_READY 25
 
 // This pin will be pulled HIGH when a client is connected over bluetooth.
-#define PIN_CONNECTED 4
+#define PIN_CONNECTED 23
 
 // If your microcontroller pulls this pin HIGH, it can send commands
 // directly to the ESP32 unit
-#define BT_KEY 16
+#define BT_KEY 22
 
 // Connect this to your microcontoller's reset line to allow you to
 // reset your microcontoller at-will.
-#define UC_NRST 17
+#define UC_NRST 21
 
 #define MAX_SEND_WAIT 50
 #define MAX_CMD_BUFFER 128
